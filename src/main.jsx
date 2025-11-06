@@ -5,7 +5,7 @@ import App from './App'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/WITER365_Pages_front_react">
+  <BrowserRouter >
     <App />
   </BrowserRouter>
 )
